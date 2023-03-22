@@ -13,7 +13,7 @@ config.read('config.ini')
 
 # Get Pyrogram settings from the configuration file
 api_id = int(config['pyrogram']['api_id'])
-api_hash = config['pyrogram']['api_hash'])
+api_hash = config['pyrogram']['api_hash']
 bot_token = config['pyrogram']['bot_token'])
 
 # Get Google Drive settings from the configuration file
